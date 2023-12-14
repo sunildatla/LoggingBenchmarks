@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+    <PackageReference Include="BenchmarkDotNet.Diagnostics.Windows" Version="0.13.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0-preview.7.22375.6" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-preview.7.22375.6" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-preview.7.22375.6" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0-preview.7.22375.6" />
+    <PackageReference Include="OpenTelemetry" Version="1.4.0-alpha.1" />
+    <PackageReference Include="OpenTelemetry.Api" Version="1.4.0-alpha.1" />
+    <PackageReference Include="OpenTelemetry.Audit.Geneva" Version="1.2.0" />
+    <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.4.0-alpha.1" />
+    <PackageReference Include="OpenTelemetry.Exporter.Geneva" Version="1.4.0-beta.1" />
+    <PackageReference Include="OpenTelemetry.Exporter.Jaeger" Version="1.4.0-alpha.1" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.0.0-rc9.5" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.0.0-rc9.5" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.0.0" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="7.0.0-preview.7.22375.6" />
+  </ItemGroup>
+</Project>

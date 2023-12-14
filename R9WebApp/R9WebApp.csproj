@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.6.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.2.23128.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0-rc.1.22426.10" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0-rc.1.22426.10" />
+    <PackageReference Include="Microsoft.R9.Extensions.Data.Validation" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Enrichment.Abstractions" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Enrichment.Environment" Version="1.7.0-pr-373949-0092-alpha" />
+    <PackageReference Include="Microsoft.R9.Extensions.Enrichment.Host" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Enrichment.Process" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Enrichment.Service" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Essentials" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Http.Logging" Version="1.6.0-pr-355449-0052-alpha" />
+    <PackageReference Include="Microsoft.R9.Extensions.Http.Logging.Options" Version="1.6.0-pr-356800-0061-alpha" />
+    <PackageReference Include="Microsoft.R9.Extensions.HttpClient.Logging" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.HttpClient.Tracing" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.HttpLogging.Options" Version="1.6.0-pr-357716-0076-alpha" />
+    <PackageReference Include="Microsoft.R9.Extensions.Logging" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Logging.Abstractions" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Logging.Exporters.Console" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Logging.Exporters.Geneva" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Logging.OpenTelemetry" Version="1.6.0-pr-356339-0055-alpha" />
+    <PackageReference Include="Microsoft.R9.Extensions.Metering.Abstractions" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Redaction" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Redaction.Abstractions" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Telemetry.Exporter.Geneva" Version="1.6.0-pr-356200-0054-alpha" />
+    <PackageReference Include="Microsoft.R9.Extensions.Tracing" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Tracing.Exporters.Geneva" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Tracing.Http" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Tracing.HttpClient" Version="1.15.0-nightly-20220203" />
+    <PackageReference Include="Microsoft.R9.Generators" Version="1.23.0-pr-610354-0046">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.R9.Service.Middleware.Http.Logging" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="OpenTelemetry.Exporter.Geneva" Version="1.4.0-beta.1" />
+    <PackageReference Include="Microsoft.R9.Extensions.HttpClient.Metering" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Metering.Collectors.EventCounters" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Metering.Geneva" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Extensions.Enrichment.GenevaAgent" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="Microsoft.R9.Service.Middleware.HttpMetering" Version="1.23.0-pr-610354-0046" />
+    <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="7.0.0-rc.2.22472.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InstrumentationSdk\InstrumentationSdk.csproj" />
+  </ItemGroup>
+</Project>
